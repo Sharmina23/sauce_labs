@@ -1,0 +1,741 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "User can login to the sauce demo website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 46000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User can open any browser",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 385000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is able to enter saucedemo url",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_is_able_to_enter_saucedemo_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 650000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter the userName and password",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_enter_the_user_name_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on the Login button",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1413000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User able to successfully login to sauce demo website",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_able_to_successfully_login_to_sauce_demo_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-11T04:34:28.426Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2132000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.Hooks.suiteSetup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User can change sorting from by name to by price",
+        "description": "",
+        "id": "user-able-to-login-with-valid-username-\u0026-password-and-purchase-an-item;user-can-change-sorting-from-by-name-to-by-price",
+        "after": [
+          {
+            "result": {
+              "duration": 646000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 736000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on the dropdown",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_clicks_on_the_dropdown()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User can change sorting from by name to by low to high price",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_can_change_sorting_from_by_name_to_by_low_to_high_price()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario1"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "User can login to the sauce demo website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User can open any browser",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 341000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is able to enter saucedemo url",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_is_able_to_enter_saucedemo_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 553000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter the userName and password",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_enter_the_user_name_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on the Login button",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 977000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User able to successfully login to sauce demo website",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_able_to_successfully_login_to_sauce_demo_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-11T04:34:34.843Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1514000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.Hooks.suiteSetup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "User can add two or more items to the shopping cart",
+        "description": "",
+        "id": "user-able-to-login-with-valid-username-\u0026-password-and-purchase-an-item;user-can-add-two-or-more-items-to-the-shopping-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 752000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1009000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on Add to Cart on the first item",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_clicks_on_add_to_cart_on_the_first_item()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 231000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks on Add to cart on second item",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_clicks_on_add_to_cart_on_second_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on Add to cart on third item",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_clicks_on_add_to_cart_on_third_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks on the Shopping Cart",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_clicks_on_the_shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 459000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User can verify the items",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_can_verify_the_items()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario2"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "User can login to the sauce demo website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User can open any browser",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 341000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is able to enter saucedemo url",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_is_able_to_enter_saucedemo_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 548000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter the userName and password",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_enter_the_user_name_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 161000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on the Login button",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1407000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User able to successfully login to sauce demo website",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_able_to_successfully_login_to_sauce_demo_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-11T04:34:41.194Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1497000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.Hooks.suiteSetup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "User can remove an item from the cart and continue shopping",
+        "description": "",
+        "id": "user-able-to-login-with-valid-username-\u0026-password-and-purchase-an-item;user-can-remove-an-item-from-the-cart-and-continue-shopping",
+        "after": [
+          {
+            "result": {
+              "duration": 645000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 574000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User clicks on Add to Cart on the first item",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_clicks_on_add_to_cart_on_the_first_item()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 245000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User clicks on Add to cart on second item",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_clicks_on_add_to_cart_on_second_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User clicks on Add to cart on third item",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_clicks_on_add_to_cart_on_third_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User clicks on the Shopping Cart",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_clicks_on_the_shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User clicks the remove button",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_clicks_the_remove_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User clicks on Continue shopping button",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_clicks_on_continue_shopping_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User returns to products page to continue shopping",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_returns_to_products_page_to_continue_shopping()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario3"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "User can login to the sauce demo website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User can open any browser",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 334000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is able to enter saucedemo url",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_is_able_to_enter_saucedemo_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 527000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter the userName and password",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_enter_the_user_name_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 143000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on the Login button",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 955000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User able to successfully login to sauce demo website",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_able_to_successfully_login_to_sauce_demo_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-11T04:34:47.304Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1506000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.Hooks.suiteSetup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "User can add another item to the cart and checkout the cart",
+        "description": "",
+        "id": "user-able-to-login-with-valid-username-\u0026-password-and-purchase-an-item;user-can-add-another-item-to-the-cart-and-checkout-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 658000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 978000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User clicks on Add to Cart on the first item",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_clicks_on_add_to_cart_on_the_first_item()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 225000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User clicks on Add to cart on second item",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_clicks_on_add_to_cart_on_second_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User clicks on the Shopping Cart",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_clicks_on_the_shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User clicks on Continue shopping button",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_clicks_on_continue_shopping_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User clicks on Add to cart on third item",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_clicks_on_add_to_cart_on_third_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User clicks on the Shopping Cart",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_clicks_on_the_shopping_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User clicks on Checkout",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_clicks_on_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 515000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User adds personal detail \u0026 clicks on Continue",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_adds_personal_detail_clicks_on_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 438000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User can verify the items",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_can_verify_the_items()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Verify the total price",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.verify_the_total_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User can finish the checkout",
+            "match": {
+              "location": "demo.stepdef.SauceStepDefinition.user_can_finish_the_checkout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario4"
+          }
+        ]
+      }
+    ],
+    "name": "User able to login with valid username \u0026 password and purchase an item",
+    "description": "Description: \"User can login to sauce demo website \u0026 add/remove items to the cart \u0026\"\n        \"checkout the items in the cart\"  ",
+    "id": "user-able-to-login-with-valid-username-\u0026-password-and-purchase-an-item",
+    "keyword": "Feature",
+    "uri": "file:Features/purchase.feature",
+    "tags": []
+  }
+]

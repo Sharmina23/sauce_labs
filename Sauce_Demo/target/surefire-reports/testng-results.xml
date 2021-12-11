@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Test Suite" duration-ms="27247" started-at="2021-12-11T04:34:27Z" finished-at="2021-12-11T04:34:54Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:demo.runner.SauceRunner@233795b6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Sauce Demo" duration-ms="27247" started-at="2021-12-11T04:34:27Z" finished-at="2021-12-11T04:34:54Z">
+      <class name="demo.runner.SauceRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:demo.runner.SauceRunner@233795b6]" name="setUpClass" is-config="true" duration-ms="609" started-at="2021-12-11T04:34:27Z" finished-at="2021-12-11T04:34:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:demo.runner.SauceRunner@233795b6]" name="runScenario" duration-ms="6693" started-at="2021-12-11T04:34:28Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-11T04:34:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can change sorting from by name to by price"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User able to login with valid username & password and purchase an item]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:demo.runner.SauceRunner@233795b6]" name="runScenario" duration-ms="6332" started-at="2021-12-11T04:34:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-11T04:34:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can add two or more items to the shopping cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User able to login with valid username & password and purchase an item]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:demo.runner.SauceRunner@233795b6]" name="runScenario" duration-ms="6130" started-at="2021-12-11T04:34:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-11T04:34:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can remove an item from the cart and continue shopping"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User able to login with valid username & password and purchase an item]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:demo.runner.SauceRunner@233795b6]" name="runScenario" duration-ms="7256" started-at="2021-12-11T04:34:47Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-11T04:34:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can add another item to the cart and checkout the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User able to login with valid username & password and purchase an item]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:demo.runner.SauceRunner@233795b6]" name="tearDownClass" is-config="true" duration-ms="191" started-at="2021-12-11T04:34:54Z" finished-at="2021-12-11T04:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- demo.runner.SauceRunner -->
+    </test> <!-- Sauce Demo -->
+  </suite> <!-- Automation Test Suite -->
+</testng-results>

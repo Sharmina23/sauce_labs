@@ -1,0 +1,3 @@
+demo\hooks\Hooks.class
+demo\runner\SauceRunner.class
+demo\stepdef\SauceStepDefinition.class
